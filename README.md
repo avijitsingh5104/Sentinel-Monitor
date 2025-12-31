@@ -21,22 +21,19 @@ The system is suitable for:
 ---
 
 ## 📂 Project Structure
-sentinel-monitor/ 
-|-- admin_auth.py
-|-- admin_panel.py 
-|-- monitor.py 
-|-- overlay.py 
-|-- register.py 
-|-- crypto_utils.py 
-|-- welcome_anim_runner.py 
-|-- data/ 
-│------ admin_auth.json
-│------ elgamal_priv.json
-│------ faces.json 
-│------ public.pem 
-│------ private.pem
-|-- README.md
-|-- LICENSE
+sentinel-monitor/
+├── admin_auth.py
+├── admin_panel.py
+├── monitor.py
+├── overlay.py
+├── register.py
+├── crypto_utils.py
+├── data/
+│ ├── faces.json
+│ ├── private.pem
+│ └── public.pem
+├── README.md
+└── LICENSE
 
 ---
 
