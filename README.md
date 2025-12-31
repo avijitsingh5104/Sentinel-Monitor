@@ -22,16 +22,18 @@ The system is suitable for:
 
 ## 📂 Project Structure
 sentinel-monitor/
-├── admin_auth.py
-├── admin_panel.py
-├── monitor.py
-├── overlay.py
-├── register.py
-├── crypto_utils.py
+├── admin_auth.py              # Handles admin authentication
+├── admin_panel.py             # GUI control panel
+├── monitor.py                 # Real-time monitoring logic
+├── overlay.py                 # Screen lock / overlay
+├── register.py                # User face registration
+├── crypto_utils.py            # Encryption utilities
+│
 ├── data/
-│ ├── faces.json
-│ ├── private.pem
-│ └── public.pem
+│   ├── faces.json             # Stored face encodings
+│   ├── private.pem            # Private encryption key
+│   └── public.pem             # Public encryption key
+│
 ├── README.md
 └── LICENSE
 
